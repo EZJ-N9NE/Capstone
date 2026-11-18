@@ -8,6 +8,7 @@
     "start": "node src/index.js",
     "dev": "node --watch src/index.js",
     "ingest": "node src/scripts/ingest.js",
+    "db:init": "node src/scripts/initDb.js",
     "test": "node --test \"test/**/*.test.js\""
   },
   "dependencies": {
