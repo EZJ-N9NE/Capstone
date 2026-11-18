@@ -15,13 +15,13 @@ docker compose up -d
 
 # 2. API server
 cd server
-cp .env.example .env        # fill in TICKETMASTER_API_KEY and MAPBOX_TOKEN
+cp .env.example .env        # fill in TICKETMASTER_API_KEY
 npm install
 npm run dev                 # http://localhost:4000
 
 # 3. Client (in a second terminal)
 cd client
-cp .env.example .env        # fill in VITE_MAPBOX_TOKEN
+cp .env.example .env        
 npm install
 npm run dev                 # http://localhost:5173
 ```
